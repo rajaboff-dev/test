@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cards,
+.season_page {
+    display: flex;
+}
+
+.section-1 {
+    width: 100%;
+    height: auto;
+}
+
+.season {
+    width: 50%;
+    height: 560px;
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+}
+
+.season h1 {
+    font-family: Playfair Display;
+    font-weight: 700;
+    line-height: 47.99px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card:first-child,
+.card:nth-child(2),
+.card:nth-child(3) {
+    width: 200px;
+    height: 280px;
+    background-color: #3e4041;
+}
+
+.line {
+    width: 15%;
+    height: 2px;
+    position: relative;
+    top: -35px;
+    left: 300px;
+    background-color: #7e7c7c;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-txt span {
+    position: relative;
+    top: -10px;
+}
+
+.card-txt p {
+    width: 40%;
+    position: relative;
+    top: 130px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 20px;
+    font-family: Playfair Display;
+}
+
+.card img {
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.new-collection {
+    width: 50%;
+    height: 560px;
+    background-image: url("./Imges/img-2.png");
+    color: #fff;
+}
+
+.new-page {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 360px;
+}
+
+.new-page h1 {
+    font-family: Playfair Display;
+}
+
+.line-2 {
+    width: 15%;
+    height: 1px;
+    position: relative;
+    top: 20px;
+    background-color: #fff;
+}
+
+.new-page button {
+    margin-top: 50px;
+    width: 138px;
+    height: 47px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family: Playfair Display;
+    cursor: pointer;
+    transition: 0.3s linear;
+    border-radius: 3px;
+}
+
+.new-page button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.section-2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.page-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collection-2018 {
+    width: 760px;
+    height: 500px;
+    background-color: #000;
+    color: #fff;
+}
+
+.collection-2018 {
+    padding: 50px 0px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.collection-2018 h1 {
+    font-size: 25px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    line-height: 47.99px;
+    margin-bottom: 50px;
+}
+.collection-2018 p {
+    width: 62%;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: Poppins;
+    margin-bottom: 50px;
+}
+.collection-2018 button {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 400;
+    padding: 11px 30px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.collection-2018 button:hover {
+    background-color: #fff;
+    color: #000;
+}
+.line-3 {
+    width: 70px;
+    height: 1.90px;
+    background-color: #9c9797;
+    position: absolute;
+    top: 115px;
+}
