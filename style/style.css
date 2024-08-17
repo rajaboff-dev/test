@@ -118,6 +118,12 @@ body {
     background-color: #000;
     color: #fff;
     padding: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .season h1 {
@@ -125,83 +131,78 @@ body {
     font-weight: 700;
     line-height: 47.99px;
     text-align: center;
-    margin-bottom: 50px;
 }
+
+
+.season .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
 
 .card:first-child,
 .card:nth-child(2),
 .card:nth-child(3) {
     width: 200px;
-    height: 280px;
     background-color: #3e4041;
+    text-align: start;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px
 }
 
 .line {
-    width: 15%;
+    width: 150px;
     height: 2px;
-    position: relative;
-    top: -35px;
-    left: 300px;
     background-color: #7e7c7c;
 }
 
-.cards {
-    display: flex;
-    justify-content: space-between;
-}
-
-.card-txt span {
-    position: relative;
-    top: -10px;
-}
-
 .card-txt p {
-    width: 40%;
-    position: relative;
-    top: 130px;
+    width: 100%;
     font-weight: 700;
     font-size: 1rem;
     line-height: 20px;
     font-family: Playfair Display;
 }
 
-.card img {
-    position: relative;
-    top: 50px;
-    left: 20px;
-}
-
 .new-collection {
     width: 50%;
-    height: 560px;
     background-image: url("../Image/img-2.png");
     color: #fff;
+    padding: 100px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.line-2 {
+    width: 200px;
+    height: 1px;
+    background-color: #fff;
 }
 
 .new-page {
-    text-transform: uppercase;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    position: relative;
-    top: 360px;
+    justify-content: end;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .new-page h1 {
     font-family: Playfair Display;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
-.line-2 {
-    width: 15%;
-    height: 1px;
-    position: relative;
-    top: 20px;
-    background-color: #fff;
-}
+
 
 .new-page button {
-    margin-top: 50px;
     width: 138px;
     height: 47px;
     background: none;
@@ -231,6 +232,10 @@ body {
     justify-content: space-between;
 }
 
+.page-two .img img{
+    height: 100%;
+}
+
 .collection-2018 {
     width: 760px;
     height: 500px;
@@ -245,14 +250,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
+    gap: 20px;
 }
 .collection-2018 h1 {
     font-size: 25px;
     font-family: Playfair Display;
     font-weight: 400;
     line-height: 47.99px;
-    margin-bottom: 50px;
 }
 .collection-2018 p {
     width: 62%;
@@ -260,7 +264,6 @@ body {
     line-height: 21px;
     font-weight: 400;
     font-family: Poppins;
-    margin-bottom: 50px;
 }
 .collection-2018 button {
     text-transform: uppercase;
@@ -283,8 +286,22 @@ body {
     width: 70px;
     height: 1.90px;
     background-color: #9c9797;
-    position: absolute;
-    top: 115px;
+}
+
+
+.section-3 {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 100px 200px;
+}
+
+.new-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .new-product h1{
@@ -295,23 +312,10 @@ body {
     line-height: 47.99px;
 }
 
-.section-3 {
-    width: 100%;
-    height: 139vh;
-    position: relative;
-    top: -4px;
-    background-color: #000;
-    color: #fff;
-    padding: 150px 300px;
-}
-
 .line-4 {
     width: 170px;
     height: 1.90px;
     background-color: #9c9797;
-    position: absolute;
-    top: 250px;
-    left: 45%;
 }
 .new-cards {
     display: flex;
@@ -323,19 +327,10 @@ body {
 .new-card {
     width: 230px;
     height: 250px;
-    position: relative;
-    top: 200px;
     background-color: #3e4041;
-}
-
-.new-card img {
-    position: relative;
-    top: 30px;
-    left: 30px;
+    padding: 10px;
 }
 .new-txt {
-    position: relative;
-    top: 80px;
     line-height: 30px;
     color: #bbbbbb;
     font-family: Playfair Display;
@@ -356,6 +351,20 @@ footer {
     background-color: #0F0F0F;
     padding: 50px 300px;
 }
+.footer-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.text-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
 .text-top h1 {
     color: #fff;
     text-align: center;
@@ -370,13 +379,9 @@ footer {
     width: 150px;
     height: 2px;
     background-color: #7e7c7c;
-    position: relative;
-    top: 50px;
-    left: 41%;
 }
 
 .footer-logo {
-    margin-top: 100px;
     display: flex;
     justify-content: space-between;
 }
