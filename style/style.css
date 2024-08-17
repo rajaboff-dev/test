@@ -383,7 +383,9 @@ footer {
 
 .footer-logo {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 
 .footer-logo img {
